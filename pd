@@ -1,1 +1,36 @@
+vards =input ("ievadi savu vardu")
+vecums =input ("ievadi savu vecumu")
+print("sveiks", vards + "tev ir", vecums + "gadi")
 
+a =int (input("ievadi pirmo skaitli: "))
+b= int(input("ievadi otro skaiti: "))
+print("summa ir:", a + b)
+
+skaitlis= int(input("ievadi skaitli: "))
+if skaitlis %2 ==0:
+   print("pāra skaitlis")
+else:
+    print("nepāra skaitlis")
+
+    x= int(input("ievadi skaitili:"))
+    if x>0:
+        print("pozitivs")
+    elif x<0:
+        print("negative")
+    else:
+        print("nulle")
+
+        vecums= int(input("ievadi vecumu: "))
+        if vecums >= 18:
+            print ("pilngadigs")
+        else:
+            print("nepilngadigs")
+
+    n= int(input("ievadi skaitli"))
+    if n >=10 and n <= 20:
+        print("kaitlis ir starp 10 un 20. ")
+    else:
+        print("skaitlus nav starp 10 un 20. ")
+
+        for i in range(1,11):
+            print(i)
